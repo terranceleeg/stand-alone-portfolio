@@ -7,5 +7,39 @@
 // thumbnails
 
 figure{
-    margin: 0;
 }
+nav{
+    background-image: url(../img/black-thread-light.png)
+    height: 200px;
+}
+[class*=uk-width]{
+    width: 30%;
+}
+.uk-grid{
+    margin-left: 0px;
+}
+body{
+    background: #eee;
+    background-image: url(../img/black-thread-light.png)
+}
+.navbutton{
+    fill: #6495ED; 
+}
+.uk-button:hover .navbutton{
+    fill: #EDBC64;
+}
+
+.uk-card-default{
+    background: #EEE;
+}
+.uk-button-default{
+    border: none;
+}
+img{
+    margin: 10px;
+}
+nav h1 .mainheader{
+    color: #EDBC64;
+    background: black;
+}
+
