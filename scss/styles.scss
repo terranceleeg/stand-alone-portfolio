@@ -24,10 +24,40 @@ body{
 }
 .navbutton{
     fill: #6495ED; 
+    transition: all 1s;
 }
 .uk-button:hover .navbutton{
     fill: #EDBC64;
 }
+.uk-button svg{
+    transition: all 1s;
+}
+.uk-button:hover svg{
+    transform: rotate(90deg);
+}
+//modal styling
+
+.uk-modal-dialog{
+    background: #64DAED;
+}
+.uk-dropdown-nav>li>a{
+    color: white;
+    transition: all 1s;
+}
+.uk-dropdown-nav>li>a:hover{
+    color: #EDBC64;
+}
+.uk-close{
+    color: white;
+    transition: all 1s;
+}
+.uk-close:hover{
+    color: #EDBC64;
+}
+
+
+
+//end of modal styling
 //lightgallery styling
 .lg-backdrop{
     background-color: rgba(100,149,237,.45)
@@ -51,13 +81,22 @@ body{
 .lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover{
     border-color: #6495ED;
 }
+body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object{
+    box-shadow: 10px 10px 25px black;
+}
 //end of lg styling
 .uk-dropdown{
     background: #EDBC64;
 }
+//card styling
 .uk-card-default{
     background: #EEE;
+    transition: all 1s;
 }
+.uk-card-default:hover{
+    box-shadow: 0 5px 15px #6495ED
+}
+//end card styling
 .uk-button-default{
     border: none;
 }
@@ -65,6 +104,10 @@ body{
     color: #EDBC64;
 }
 img{
+    margin: 0px;
+    transition: all 1s;
+}
+img:hover{
     margin: 10px;
 }
 h1{
