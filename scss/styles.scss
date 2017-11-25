@@ -123,6 +123,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object{
 img{
     margin: 0px;
     transition: all 1s;
+    max-width: 30%;
 }
 img:hover{
     margin: 5px;

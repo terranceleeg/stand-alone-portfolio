@@ -3,10 +3,15 @@
         display: none;
         
     }
-    
+   a {
+        max-width: 30%;
+    }
 }
 @media (max-width: 640px){
     .linemenu{
         display: none;
+    }
+    img{
+        max-width: 100%;
     }
 }
