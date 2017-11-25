@@ -1,18 +1,30 @@
 @import "normalize";
 @import "uikit.min";
-@import "media-queries"
 @import "lightgallery";
 @import "lg-transitions";
+@import "media-queries";
 
 
 // thumbnails
 
 figure{
 }
-nav{
+//smallernav
+.hamburgermenu{
     background: #eee;
     height: 200px;
 }
+//biggernav
+nav{
+    background: #eee;
+    height: 100px;
+}
+
+.uk-position-right{
+    top: -20px;
+    right: -40px;
+}
+//end of nav styling
 [class*=uk-width]{
     width: 30%;
 }
@@ -36,7 +48,7 @@ body{
 .uk-button:hover svg{
     transform: rotate(90deg);
 }
-.description{
+.descriptionmobile{
     margin: 10px;
     text-align: justify;
 }
@@ -116,7 +128,5 @@ img:hover{
     margin: 5px;
     box-shadow: 0 5px 15px #6495ed;
 }
-h1{
-    color: #red;
-}
+//media queries
 
