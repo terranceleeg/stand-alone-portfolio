@@ -9,6 +9,7 @@ figure{
 nav{
     background: #eee;
     height: 100px;
+    margin-bottom: 1em;
 }
 
 .uk-position-right{
@@ -16,6 +17,23 @@ nav{
 }
 .uk-navbar-nav{
     padding: 30px;
+}
+.uk-navbar-nav>li>a{
+    color: #6495ED;
+    border-radius: 5%;
+    margin: 5px;
+    transition: all 1s;
+}
+.uk-navbar-nav>li>a:hover{
+    color: #EEE;
+    background: #6495ED;
+    
+}
+.uk-navbar-nav>li.uk-active>a{
+    color: #EDBC64;
+}
+.uk-navbar-container:not(.uk-navbar-transparent){
+    background: rgba(248, 248, 248, .7);
 }
 //end of nav styling
 [class*=uk-width]{
@@ -25,7 +43,7 @@ nav{
     margin-left: 0px;
 }
 body{
-    background: #eee;
+    background: rgba(100, 149, 237, .1);
     background-image: url(../img/black-thread-light.png)
 }
 .navbutton{
@@ -100,7 +118,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object{
 }
 //card styling
 .uk-card-default{
-    background: #EEE;
+    background: rgba(248, 248, 248, .5);
     transition: all 1s;
 }
 .uk-card-default:hover{
@@ -119,8 +137,7 @@ img{
     max-width: 30%;
 }
 img:hover{
-    margin: 5px;
-    box-shadow: 0 5px 15px #6495ed;
+    margin: 10px;
 }
 //media queries
 
