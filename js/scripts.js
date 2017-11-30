@@ -17,4 +17,6 @@ $('header img').attr('src', eval('img' + numRand) );
 $('figure').lightGallery({
     selector: 'a', 
     thumbnail: true,
+    download: false,
+    
 });
